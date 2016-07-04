@@ -1,0 +1,10 @@
+urls = [''] # Example: ['http://rutracker.org/forum/viewtopic.php?pg=1&t=5214788', 'http://rutracker.org/forum/viewtopic.php?t=5210207']
+# Your rutracker credentials
+rutracker_username = ''
+rutracker_password = ''
+# Telegram bot token. You can get it here: telegram.me/BotFather
+# P.S. >Bots can't initiate conversations with users. A user must either add them to a group or send them a message first
+# More info here: https://core.telegram.org/bots
+token = ''
+
+# Chat id will be added here automatically. Just run get_chat_id.py
