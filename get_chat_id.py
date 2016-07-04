@@ -11,3 +11,4 @@ chat_id = json_r['result'][-1]['message']['from']['id']
 # Writing chat_id to config file
 f = open("config.py", 'a')
 f.write("\n" + "chat_id = " + str(chat_id))
+print ("Done. chat_id added to your config.py file")

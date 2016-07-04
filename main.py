@@ -77,6 +77,7 @@ def parser(page):
     #
     # Getting authed username
     # authed_user = soup.findAll("b", {"class": "med"})[0].string
+
     #
     # logging.info("Authed username: {}".format(authed_user))
     #
