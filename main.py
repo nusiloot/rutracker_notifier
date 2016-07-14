@@ -113,7 +113,7 @@ def compare(prev_update):
     for url in urls:
         # Getting pages with cookies from previous session
         page = requests.get(url, cookies=load_cookies())
-        # Parsing this pages and getting last update time values
+        # Parsing these pages and getting last update time values
         logging.info("Parsing page {}".format(str(i + 1)))
         last_update.append(parser(page))
         # Notifing on update
